@@ -1,0 +1,53 @@
+.item-container{
+    margin: 15px auto;
+    max-width: 900px;
+    border: 2px solid black;
+}
+
+.item-text{
+    max-width: 850px;
+    margin: 10px auto;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+
+.item-delete-btn{
+    margin: 15px auto;
+    border: 1px solid black;
+    width: 125px;
+    height: 25px;
+cursor: pointer;
+}
+.item-delete-btn:hover{
+    border: 1px solid red;
+    color: Red;
+}
+
+.form-container{
+}
+
+.form-input{
+    padding: 5px 15px;
+    width: 400px;
+    height: 35px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.form-input:focus{
+    outline: none;
+}
+
+.form-btn{
+
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid silver;
+    cursor: pointer;
+}
+
+.form-btn:hover{
+    border: 1px solid green;
+    color: Green;
+}

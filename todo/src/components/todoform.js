@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { addItem } from '../actions/actions';
+import './components.css'
 
 
 class Form extends React.Component {
@@ -27,9 +28,9 @@ class Form extends React.Component {
 
     render() {
         return (
-            <form onSubmit={this.submitHandler} >
-                <input type='text' placeholder='Your item to do' value={this.state.item} onChange={this.inputHandler}></input>
-                <button type='submit'>Add</button>
+            <form className="form-container" onSubmit={this.submitHandler} >
+                <input className="form-input" type='text' placeholder='Your item to do' value={this.state.item} onChange={this.inputHandler}></input>
+                <button className="form-btn" type='submit'>+</button>
             </form>
         )
     }
